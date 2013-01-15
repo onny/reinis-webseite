@@ -19,17 +19,17 @@ div.main {
 	max-width: 1000px;
 	margin: auto;
 	text-align: left;
+	box-shadow:8px 8px 20px black;
 }
 span.blue {
 	color: rgb(29,112,183);
 }
 header.main {
 	text-align: right;
-	padding: 10px;
-	padding-right: 80px;
+	padding: 40px 80px 10px 10px;
 	background-image: url(haken.png);
 	background-repeat: no-repeat;
-	background-position: top right;
+	background-position: 100% 20%;
 	background-color: rgb(255,220,0);
 }
 header.main h1 {
@@ -39,14 +39,14 @@ header.main h1 {
 	margin: 0px;
 	padding: 0px;
 	font-size: 80px;
-	line-height: 1;
+	line-height: 0.7;
 }
 header.main h2 {
 	margin: 0px;
 	padding: 0px;
 	padding-right: 5px;
 	font-family: futura;
-	line-height: 1.2;
+	line-height: 1.1;
 }
 
 nav.top {
@@ -68,10 +68,10 @@ nav li {
 }
 
 div.content {
-	padding: 10px;
+	padding: 10px 50px 10px 50px;
 	background-color: rgb(240,240,240);
-	margin: 20px 0 20px 0;
-	overflow: none;
+	margin: 20px 0px 20px 0px;
+	text-align: justify;
 	display: inline-block;
 }
 
@@ -95,6 +95,7 @@ footer.main {
 footer.main a, footer.main a:hover, footer.main a:visited {
 	text-decoration: none;
 	color:  rgb(240,240,240);
+	font-size: 10pt;
 }
 footer.main a:hover {
 	text-decoration: underline;
