@@ -53,6 +53,7 @@ nav.top {
 	background-image: url(bluetowhite.png);
 	background-size: 100% 100%;
 	height: 25px;
+	z-index: 1;
 }
 nav.bottom {
 	float: right;
@@ -66,24 +67,60 @@ nav ul {
 nav li {
 	display: inline;
 }
+nav.top a, nav.top a:visited {
+	background-image: url("Kreis2.png");
+	background-repeat: no-repeat;
+	width: 108px;
+	height: 100px;
+	display: inline-block;
+	padding: 45px 0px 0px 0px;
+	position: relative;
+	text-align: center;
 
+	text-decoration: none;
+	color: rgb(29,112,183);
+	font-weight: bold;
+}
+nav.top a.first {
+	top: -55px;
+}
+
+nav.top a.second {
+	top: -70px;
+}
+nav.top a.third {
+	top: -80px;
+}
+nav.top a.fourth {
+	top: -75px;
+}
+nav.top a:hover {
+	background-image: url("Kreis1.png");
+}
 div.content {
 	padding: 10px 50px 10px 50px;
 	background-color: rgb(240,240,240);
 	margin: 20px 0px 20px 0px;
-	text-align: justify;
 	display: inline-block;
+	position: relative;
+	z-index: 0;
 }
+div.content h3,h4,h5,h6 {
+	color: rgb(29,112,183);
 
+}
 aside {
-	width: 40%;
+	width: 35%;
 	float: left;
 	display: inline-block;
+	margin: 10px;
+	padding-top: 50px;
 }
 article {
 	width: 60%;
 	float: right;
 	display: inline-block;
+	text-align: justify;
 }
 footer.main {
 	background-image: url(bluetowhite.png);
