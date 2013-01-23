@@ -1,0 +1,11 @@
+ul {
+	display: none;
+}
+div.rs-content {
+	box-shadow: none;
+}
+div.rs-footer {
+	border-top: 1px;
+	border-top-color: black;
+	border-top-style: solid;
+}
