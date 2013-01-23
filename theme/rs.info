@@ -1,0 +1,13 @@
+name = rs
+description = A custom theme for reinhardschmidt.com
+core = 7.x
+screenshot = screenshot.png
+
+stylesheets[all][] = css/style-core.css
+stylesheets[screen and (min-width: 801px), handheld][] = css/style-screen.css
+stylesheets[screen and (max-width: 800px)][] = css/style-mobile.css
+stylesheets[print][] = css/style-print.css
+
+regions[content] = Content
+regions[sidebar_first] = Sidebar first
+regions[footer] = Footer

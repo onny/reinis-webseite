@@ -1,0 +1,93 @@
+body {
+	text-align: center;
+	padding: 10px;
+
+}
+div.rs-main {
+	width: 100%;
+	max-width: 1000px;
+	margin: auto;
+	text-align: left;
+	box-shadow: 8px 8px 20px black;
+}
+nav.rs-bottom {
+	float: right;
+	margin-top: 70px;
+}
+nav.rs-top {
+	height: 25px;
+}
+nav ul {
+	list-style-type: none;
+	padding: 0px;
+	padding-left: 35px;
+	margin: 0px;
+}
+nav li {
+	display: inline;
+}
+nav.rs-top a, nav.rs-top a:visited {
+	background-image: url("../images/Kreis2.png");
+	background-repeat: no-repeat;
+	width: 108px;
+	height: 100px;
+	display: inline-block;
+	position: relative;
+	text-align: center;
+	padding: 40px 0px 0px 0px;
+	text-decoration: none;
+	color: rgb(29,112,183);
+	font-weight: bold;
+}
+nav.rs-top a.a1 {
+	top: -55px;
+	font-size: 25px;
+	background-position: -30% 10%;
+}
+
+nav.rs-top a.a2 {
+	top: -70px;
+	font-size: 17px;
+	background-position: -30% -5%;
+}
+nav.rs-top a.a3 {
+	top: -80px;
+	font-size: 13px;
+	background-position: -30% -15%;
+}
+nav.rs-top a.a4 {
+	top: -75px;
+	font-size: 18px;
+	background-position: -30% -5%;
+}
+nav.rs-top a:hover, nav.rs-top a.selected {
+	background-image: url("../images/Kreis1.png");
+}
+div.rs-content {
+	padding: 10px 90px 10px 50px;
+	margin: 20px 0px 20px 0px;
+}
+body.one-sidebar div.rs-content {
+	display: inline-block;
+}
+div.rs-content h3,h4,h5,h6 {
+	color: rgb(29,112,183);
+
+}
+aside.rs {
+	width: 35%;
+	float: left;
+	margin: 10px;
+	padding-top: 50px;
+}
+body.one-sidebar article.rs {
+	width: 60%;
+	float: right;
+}
+body.no-sidebars article.rs {
+	width: 100%;
+}
+
+div.rs-footer {
+	padding: 35px 10px 10px 60px;
+}
