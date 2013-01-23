@@ -15,6 +15,12 @@ body {
 	margin: 0px;
 	padding: 0px;
 }
+a, a:visited {
+	color: rgb(29,112,183);
+}
+a:hover {
+	color: rgb(87,87,86);
+}
 div.rs-main {
 	background-color: rgb(255,220,0);
 	text-align: left;
@@ -68,7 +74,7 @@ div.rs-content {
 	background-color: rgb(240,240,240);
 	box-shadow: 0px 4px 8px black;
 }
-div.rs-content h3,h4,h5,h6 {
+div.rs-content h1,h2,h3,h4,h5,h6 {
 	color: rgb(29,112,183);
 
 }
@@ -82,14 +88,14 @@ div.rs-footer {
 	color:  rgb(240,240,240);
 	/*padding: 40px 10px 10px 60px; */
 }
-nav.rs-bottom a, nav.rs-bottom a:hover, nav.rs-bottom a:visited {
+div.rs-footer a, div.rs-footer a:hover, div.rs-footer a:visited {
 	text-decoration: none;
 	color:  rgb(240,240,240);
 	font-size: 10pt;
 }
-nav.rs-bottom a:hover {
+div.rs-footer a:hover {
 	text-decoration: underline;
 }
-nav.rs-bottom li {
+div.rs-footer li {
 	padding: 5px;
 }

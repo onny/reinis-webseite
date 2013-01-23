@@ -66,6 +66,7 @@ nav.rs-top a:hover, nav.rs-top a.selected {
 div.rs-content {
 	padding: 10px 90px 10px 50px;
 	margin: 20px 0px 20px 0px;
+	min-height: 300px;
 }
 body.one-sidebar div.rs-content {
 	display: inline-block;
@@ -89,5 +90,5 @@ body.no-sidebars article.rs {
 }
 
 div.rs-footer {
-	padding: 35px 10px 10px 60px;
+	padding: 15px 10px 10px 60px;
 }

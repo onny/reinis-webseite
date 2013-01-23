@@ -2,9 +2,13 @@
 function rs_links__system_main_menu($variables) {
 	$html .= "  <ul>\n"; 
 	$i=1;
-	
+
 	foreach ($variables['links'] as $link) {
-		$html .= "<li><a class=\"a".$i."\" href=\"".$link['href']."\">".$link['title']."</a></li>\n";
+		$html .= "<li><a class=\"a".$i;
+		if (in_array('active-trail', $link['attributes']['class'])) {
+			$html .= " selected";
+		}
+		$html .= "\" href=\"".$link['href']."\">".$link['title']."</a></li>\n";
 		$i++;
 	}
 
@@ -16,8 +20,8 @@ function rs_links__system_secondary_menu($variables) {
 	$html .= "  <ul>\n"; 
 	
 	foreach ($variables['links'] as $link) {
-		$html .= "<li>".l($link['title'], $link['path'], $link)."</li>\n";
-}
+		$html .= "<li>".l($link['title'], $link['href'], $link)."</li>\n";
+	}
 
 	$html .= "  </ul>\n";
 

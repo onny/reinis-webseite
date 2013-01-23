@@ -2,9 +2,7 @@
 
 		<header class="rs-main">
 			<h1>R<span class="blue">einhard</span> S<span class="blue">chmidt</span></h1>
-			<?php if ($site_slogan): ?>
-				<h2><?php print $site_slogan; ?></h2>
-			<?php endif; ?>
+			<h2>Ingenieurdienstleistungen <br /> Qualitätsmanagement</h2>
 		</header>
 		
 		<?php if ($main_menu): ?>
@@ -34,10 +32,11 @@
 				</nav>
 			<?php endif; ?>
 			
-			<footer class="rs">
-				Tel. mobil: +49 171 2190856 <br/>
-				kontakt@reinhardschmidt.com <br/>
-				www.reinhardschmidt.com
-			</footer>
+			<?php if ($page['footer']): ?>
+				<footer class="rs">
+					<?php print render($page['footer']); ?>
+				</footer>
+			<?php endif; ?>
+			
 		</div>
 	</div>
