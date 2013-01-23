@@ -4,7 +4,7 @@ function rs_links__system_main_menu($variables) {
 	$i=1;
 
 	foreach ($variables['links'] as $link) {
-		$html .= "<li><a class=\"a".$i;
+		$html .= "<li><a class=\"round a".$i;
 		if (in_array('active-trail', $link['attributes']['class'])) {
 			$html .= " selected";
 		}

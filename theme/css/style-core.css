@@ -53,8 +53,8 @@ header.rs-main h2 {
 	font-weight: normal;
 	font-size: 22px;
 	line-height: 1;
+	margin-bottom: 10px;
 }
-
 nav.rs-top {
 	background-image: url(../images/bluetowhite.png);
 	background-size: 100% 100%;
@@ -69,6 +69,9 @@ nav li {
 }
 nav.rs-top a, nav.rs-top a:visited {
 	text-decoration: none;
+}
+div.rs-language a.session-active, div.rs-language h2 {
+	display: none;
 }
 div.rs-content {
 	background-color: rgb(240,240,240);

@@ -26,7 +26,7 @@ nav ul {
 nav li {
 	display: inline;
 }
-nav.rs-top a, nav.rs-top a:visited {
+nav.rs-top a.round, nav.rs-top a.round:visited {
 	background-image: url("../images/Kreis2.png");
 	background-repeat: no-repeat;
 	width: 108px;
@@ -46,12 +46,12 @@ nav.rs-top a.a1 {
 }
 
 nav.rs-top a.a2 {
-	top: -70px;
+	top: -80px;
 	font-size: 17px;
 	background-position: -30% -5%;
 }
 nav.rs-top a.a3 {
-	top: -80px;
+	top: -90px;
 	font-size: 13px;
 	background-position: -30% -15%;
 }
@@ -60,8 +60,17 @@ nav.rs-top a.a4 {
 	font-size: 18px;
 	background-position: -30% -5%;
 }
-nav.rs-top a:hover, nav.rs-top a.selected {
+nav.rs-top a.round:hover, nav.rs-top a.selected {
 	background-image: url("../images/Kreis1.png");
+}
+div.rs-language {
+	float: right;
+	padding: 3px 83px 0px 0px;
+}
+div.rs-language a.language-link, span.language-link {
+	color: rgb(240,240,240);
+	font-size: 16px;
+	padding: 2px;
 }
 div.rs-content {
 	padding: 10px 90px 10px 50px;

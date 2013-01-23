@@ -9,8 +9,17 @@ nav.rs-top a {
 	margin: 0px 0px;
 	color: rgb(240,240,240);
 }
-nav.rs-top a:hover, a.selected {
+nav.rs-top a.round:hover, a.selected {
 	background-image: url(../images/whitetoblue.png);
+}
+div.rs-language {
+	position: absolute;
+	top: 0px;
+	padding: 0px 0px 0px 5px;
+}
+div.rs-language a.language-link, span.language-link {
+	color: rgb(87,87,86);
+	font-size: 14px;
 }
 div.rs-content {
 	padding: 10px;

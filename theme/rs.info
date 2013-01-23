@@ -10,4 +10,5 @@ stylesheets[print][] = css/style-print.css
 
 regions[content] = Content
 regions[sidebar_first] = Sidebar first
+regions[language] = Language
 regions[footer] = Footer
